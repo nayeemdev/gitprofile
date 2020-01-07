@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(26, 30, 34);
+    text-align: center;
+}
+.container-fluid{
+    width:100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto
+}
+.wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title{
+    color: #FFFFFF;
+    padding: 1rem 0 1rem 0;
+    font-family: "Fira Code";
+}
+
+.username{
+    height: 3rem;
+    width: 20rem;
+    background-color: #0a192f;
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-family: monospace;
+    text-align: center;
+}

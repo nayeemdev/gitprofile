@@ -4,50 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <style>
-        body{
-            text-align: center;
-            font-family: monospace;
-        }
-        .corner_logo{
-            position: absolute;
-            top: 0px;
-            right: 0px;
-        }
-        .main_section{
-            background-color: rgb(26, 30, 34);
-            height: 100vh;
-        }
-        .section_info, .count_wrapper{
-            color: #ccd6f6;
-            padding-top: 5%;
-        }
-        .user_info .avatar{
-            margin: 0 auto;
-            height: 150px;
-            width: 150px;
-            padding: 5px;
-            border: 2px solid blue;
-            border-radius: 50%;
-        }
-        img{
-            height: 100%;
-            width: 100%;
-            border-radius: 50%;
-        }
-        .repo_info, .card, .footer{
-            padding: 10px;
-            background-color: #262a31;
-        }
-        .num {
-            display: block;
-        }
-    </style>
+    <meta name="keywords" content="nayeem, gitprofile, nayeemdev, nayeem9812"/>
+    <meta name="description" content="Simple app for showing all git info"/>
+    <meta name="language" content="EN">
+    <meta name="author" content="Nayeem Hossain, nayeem9812@gmail.com">
+    <meta name="copyright" content="@nayeemdev">
+    <meta name="reply-to" content="nayeem9812@gmail.com">
+    <meta name="owner" content="Nayeem Hossain">
+    <meta name="url" content="https://github.com/nayeemdev/gitprofile">
+    <title>GitProfile - Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/profile.css">
 </head>
 <body>
-    
+    <div class="preloader"></div>
     <div class="corner_logo">
         <a href="https://github.com/nayeemdev/gitprofile" target="_blank" rel="noopener noreferrer" class="github-corner" aria-label="View source on GitHub">
             <svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true">
@@ -59,167 +29,27 @@
     </div>
 
     <section class="section_info main_section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 offset-md-3">
-                    <div class="user_info">
-                        <div class="avatar">
-                            <img src="https://avatars0.githubusercontent.com/u/40033062?v=4" alt="avatar">
-                        </div>
-                        <h1 class="name">Nayeem Hossain</h1>
-                        <h2 class="username"><a href="https://github.com/nayeemdev" target="_blank" rel="noopener noreferrer">@nayeemdev</a></h2>
-                        <div class="info">
-                            <span class="info__item">SkillPeople</span>
-                            <span class="info__item">Dhaka,Bangladesh</span>
-                            <span class="info__item">Joined June 7, 2018</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row count_wrapper">
-                <div class="col-md-8 offset-md-2">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 col-xs-6 col-lg-3">
-                            <div class="repo_info">
-                                <span class="num">12</span>
-                                <span class="num-label">Repositories</span>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-xs-6 col-lg-3">
-                            <div class="repo_info">
-                                <span class="num">12</span>
-                                <span class="num-label">Total Repo Star</span>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-xs-6 col-lg-3">
-                            <div class="repo_info">
-                                <span class="num">3</span>
-                                <span class="num-label">Followers</span>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-xs-6 col-lg-3">
-                            <div class="repo_info">
-                                <span class="num">23</span>
-                                <span class="num-label">Following</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="container userInfoAjax">
+            
         </div>
     </section>
 
     <section class="section_info mb-4">
         <div class="container">
-            <h2 class="mb-5 text-dark">Top Repositories</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="cart-title">
-                            <h4>Repo Name</h4>
-                        </div>
-                        <div class="card-body">
-                            <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quae! Aperiam
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <span>
-                                <i class="fa fa dot">dot</i>
-                                PHP
-                            </span>
-                            <span>
-                                <i class="fa fa star">star</i>
-                                5
-                            </span>
-                            <span>
-                                <i class="fa fa fork">fork</i>
-                                2
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="cart-title">
-                            <h4>Repo Name</h4>
-                        </div>
-                        <div class="card-body">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quae! Aperiam
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <span>
-                                <i class="fa fa dot">dot</i>
-                                PHP
-                            </span>
-                            <span>
-                                <i class="fa fa star">star</i>
-                                5
-                            </span>
-                            <span>
-                                <i class="fa fa fork">fork</i>
-                                2
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="cart-title">
-                            <h4>Repo Name</h4>
-                        </div>
-                        <div class="card-body">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quae! Aperiam
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <span>
-                                <i class="fa fa dot">dot</i>
-                                PHP
-                            </span>
-                            <span>
-                                <i class="fa fa star">star</i>
-                                5
-                            </span>
-                            <span>
-                                <i class="fa fa fork">fork</i>
-                                2
-                            </span>
-                        </div>
-                    </div>
-                </div>
+            <h2 class="mb-4 text-dark">Top Repositories</h2>
+            <div class="row repoAjax">
+                
             </div>
         </div>
     </section>
 
-    <footer class="footer text-center">
+    <footer class="footer">
         <p>
-            <a href="">
-                <span>
-                    <i class="fa fa fork">fork</i>
-                    2
-                </span>
-            </a>
-            <a href="">
-                <span>
-                    <i class="fa fa fork">fork</i>
-                    2
-                </span>
-            </a>
-            <a href="">
-                <span>
-                    <i class="fa fa fork">fork</i>
-                    2
-                </span>
-            </a>
+            
         </p>
     </footer>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="assets/script.js"></script>
 </body>
 </html>
