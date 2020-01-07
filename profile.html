@@ -21,8 +21,6 @@
             height: 100vh;
         }
         .section_info, .count_wrapper{
-            text-align: center;
-            margin: 0 auto;
             color: #ccd6f6;
             padding-top: 5%;
         }
@@ -39,9 +37,9 @@
             width: 100%;
             border-radius: 50%;
         }
-        .count_item{
-            background-color: rgb(246, 248, 250);
+        .repo_info, .card, .footer{
             padding: 10px;
+            background-color: #262a31;
         }
         .num {
             display: block;
@@ -81,21 +79,29 @@
             <div class="row count_wrapper">
                 <div class="col-md-8 offset-md-2">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6 col-xs-6 col-lg-3 count_item">
-                            <span class="num">12</span>
-                            <span class="num-label">Repositories</span>
+                        <div class="col-md-3 col-sm-6 col-xs-6 col-lg-3">
+                            <div class="repo_info">
+                                <span class="num">12</span>
+                                <span class="num-label">Repositories</span>
+                            </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-xs-6 col-lg-3 count_item">
-                            <span class="num">12</span>
-                            <span class="num-label">Total Repo Star</span>
+                        <div class="col-md-3 col-sm-6 col-xs-6 col-lg-3">
+                            <div class="repo_info">
+                                <span class="num">12</span>
+                                <span class="num-label">Total Repo Star</span>
+                            </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-xs-6 col-lg-3 count_item">
-                            <span class="num">3</span>
-                            <span class="num-label">Followers</span>
+                        <div class="col-md-3 col-sm-6 col-xs-6 col-lg-3">
+                            <div class="repo_info">
+                                <span class="num">3</span>
+                                <span class="num-label">Followers</span>
+                            </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-xs-6 col-lg-3 count_item">
-                            <span class="num">23</span>
-                            <span class="num-label">Following</span>
+                        <div class="col-md-3 col-sm-6 col-xs-6 col-lg-3">
+                            <div class="repo_info">
+                                <span class="num">23</span>
+                                <span class="num-label">Following</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -103,34 +109,114 @@
         </div>
     </section>
 
-    <section class="section_info">
+    <section class="section_info mb-4">
         <div class="container">
+            <h2 class="mb-5 text-dark">Top Repositories</h2>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="card">
                         <div class="cart-title">
                             <h4>Repo Name</h4>
                         </div>
                         <div class="card-body">
-                            
+                            <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quae! Aperiam
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <span>
+                                <i class="fa fa dot">dot</i>
+                                PHP
+                            </span>
+                            <span>
+                                <i class="fa fa star">star</i>
+                                5
+                            </span>
+                            <span>
+                                <i class="fa fa fork">fork</i>
+                                2
+                            </span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <span class="num">12</span>
-                    <span class="num-label">Total Repo Star</span>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="cart-title">
+                            <h4>Repo Name</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quae! Aperiam
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <span>
+                                <i class="fa fa dot">dot</i>
+                                PHP
+                            </span>
+                            <span>
+                                <i class="fa fa star">star</i>
+                                5
+                            </span>
+                            <span>
+                                <i class="fa fa fork">fork</i>
+                                2
+                            </span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <span class="num">3</span>
-                    <span class="num-label">Followers</span>
-                </div>
-                <div class="col-md-3">
-                    <span class="num">3</span>
-                    <span class="num-label">Followers</span>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="cart-title">
+                            <h4>Repo Name</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quae! Aperiam
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <span>
+                                <i class="fa fa dot">dot</i>
+                                PHP
+                            </span>
+                            <span>
+                                <i class="fa fa star">star</i>
+                                5
+                            </span>
+                            <span>
+                                <i class="fa fa fork">fork</i>
+                                2
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <footer class="footer text-center">
+        <p>
+            <a href="">
+                <span>
+                    <i class="fa fa fork">fork</i>
+                    2
+                </span>
+            </a>
+            <a href="">
+                <span>
+                    <i class="fa fa fork">fork</i>
+                    2
+                </span>
+            </a>
+            <a href="">
+                <span>
+                    <i class="fa fa fork">fork</i>
+                    2
+                </span>
+            </a>
+        </p>
+    </footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
