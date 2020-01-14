@@ -32,55 +32,6 @@ span{
     height: 15px;
     width: 15px;
 }
-.container{
-    width:100%;
-    padding-right:15px;
-    padding-left:15px;
-    margin-right:auto;
-    margin-left:auto
-}
-.row{
-    display:-ms-flexbox;
-    display:flex;
-    -ms-flex-wrap:wrap;
-    flex-wrap:wrap;
-    margin-right:-15px;
-    margin-left:-15px
-}
-.col-md-3, .col-md-4, .col-md-6, .col-md-8{
-    position:relative;
-    width:100%;
-    min-height:1px;
-    padding-right:15px;
-    padding-left:15px;
-    
-}
-.col-md-3{
-    -ms-flex:0 0 25%;
-        flex:0 0 25%;
-    max-width:25%
-}
-.col-md-4{
-    -ms-flex:0 0 33.333333%;
-        flex:0 0 33.333333%;
-    max-width:33.333333%
-}
-.col-md-6{
-    -ms-flex:0 0 50%;
-    flex:0 0 50%;
-    max-width:50%
-}
-.col-md-8{
-    -ms-flex:0 0 66.666667%;
-    flex:0 0 66.666667%;
-    max-width:66.666667%
-}
-.offset-md-2{
-    margin-left:16.666667%
-}
-.offset-md-3{
-    margin-left:25%
-}
 .corner_logo{
     position: absolute;
     top: 0px;
@@ -125,46 +76,19 @@ img{
 }
 .footer{
     text-align: center;
+    color: #ccd6f6
 }
 .card{
-    position:relative;
-    display:-ms-flexbox;
-    display:flex;
-    -ms-flex-direction:column;
-    flex-direction:column;
-    min-width:0;
-    word-wrap:break-word;
-    background-clip:border-box;
     border:1px solid rgba(0,0,0,.125);
     border-radius:.25rem
 }
 .card-header{
-    padding:.75rem 1.25rem;
-    margin-bottom:0;
     background-color:rgba(0,0,0,.03);
     border-bottom:1px solid #ccd6f6;
 }
-.card-body{
-    -ms-flex:1 1 auto;
-    flex:1 1 auto;
-    padding:1.25rem
-}
 .card-footer{
-    padding:.75rem 1.25rem;
     background-color:rgba(0,0,0,.03);
     border-top:1px solid rgba(0,0,0,.125)
-}
-.card-footer:last-child{
-    border-radius:0 0 calc(.25rem - 1px) calc(.25rem - 1px)
-}
-.mb-3{
-    margin-bottom:1rem!important
-}
-.mb-4{
-    margin-bottom:1.5rem!important
-}
-.py-4{
-    padding-top:1.5rem!important
 }
 .num {
     display: block;
@@ -174,25 +98,4 @@ img{
 .fullh{
     height: 100vh;
     justify-content: center;
-}
-
-@media (min-width:576px){
-    .container{
-        max-width:540px
-    }
-}
-@media (min-width:768px){
-    .container{
-        max-width:720px
-    }
-}
-@media (min-width:992px){
-    .container{
-        max-width:960px
-    }
-}
-@media (min-width:1200px){
-    .container{
-        max-width:1140px
-    }
 }
