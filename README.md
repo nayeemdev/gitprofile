@@ -1,6 +1,6 @@
 # gitprofile
 Simple app for showing all of your github profile information. 
-[See Live Demo GitProfile](https://nayeemdev.github.io/gitprofile/profile.html)
+[See Live Demo GitProfile](https://nayeemdev.github.io/gitprofile)
 
 # About GitProfile
 Gitprofile is a simple apps that show your Github profile in one place. Just with your Github username. All the data call from github api.
