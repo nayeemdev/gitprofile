@@ -26,15 +26,15 @@ $(document).ready(function(){
                         <div class="info">
                             <span class="info__item">
                                 <i class="fa fa-building icon"> </i> 
-                                ${data.company}
+                                &nbsp; &nbsp;${data.company}
                             </span>
                             <span class="info__item">
                                 <i class="fa fa-map icon"> </i> 
-                                ${data.location}
+                                &nbsp; &nbsp;${data.location}
                             </span>
                             <span class="info__item">
                                 <i class="fa fa-calendar icon"> </i> 
-                                Joined ${data.created_at}
+                                &nbsp; &nbsp;Joined ${data.created_at}
                             </span>
                         </div>
                     </div>
